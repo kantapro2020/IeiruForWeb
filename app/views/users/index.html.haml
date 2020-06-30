@@ -1,0 +1,12 @@
+.main
+  .main__user
+    %ul.main__user__lists
+      - @users.each do |user|
+        %li.main__user__lists__list
+          = user["name"]
+          %p :　
+          .main__user__lists__list__ieiru
+            -if user["is_home"] = 0
+              %p 家いない
+            -else
+              %p 家いる
