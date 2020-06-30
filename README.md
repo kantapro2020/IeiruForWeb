@@ -3,7 +3,7 @@
 一緒に暮らしている人（家族、友人、恋人）が、今家にいるのかいないのかを判別するアプリ（web版）
 
 ## 本番環境
-https://ieiruforweb.herokuapp.com/
+https://ieiruforweb.herokuapp.com/  
 <img src="/sampleWeb.png" width="300px">
 
 ## 制作背景
