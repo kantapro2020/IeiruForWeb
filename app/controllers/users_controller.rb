@@ -2,7 +2,6 @@ class UsersController < ApplicationController
   def index
     require 'net/http'
     require 'json'
-
     # 1.urlを解析する
     uri = URI.parse("http://18.176.193.22/users/")
     # 2.httpの通信を設定する。通信先のホストやポートを設定
